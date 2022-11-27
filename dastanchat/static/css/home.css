@@ -1,0 +1,52 @@
+
+body{
+    background-color: hsl(213deg 61% 43%);
+}
+#formdiv{
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    margin-top: 8rem;
+    width: 16rem;
+    box-shadow: 9px 11px 52px 1px black;
+    padding: 3rem;
+    border-radius: 15px 15px 15px 15px;
+    align-items: center;
+
+}
+h1{ 
+    color: hsl(213deg 61% 43%);
+    font-weight: bold;
+    letter-spacing: 25px;
+    margin-left: 18px;
+}
+   
+
+input{
+    width:14rem;
+    background-color: #ebebeb;
+    color: black;
+    padding: 9px;
+    border-radius: 15px 15px 15px 15px;
+    border-style: none;
+    
+}
+#uid{
+    margin-bottom: 14px;
+}
+button{
+    margin-top: 20px;
+    font-size: 1rem;
+    letter-spacing: 0.6px;
+    width: 93%;
+    border: none;
+    padding: 7px;
+    background-color: rgb(142, 157, 169);
+    border-radius: 15px 15px 15px 15px;
+    color: rgb(251, 246, 246);
+}
+button:hover{
+    box-shadow: 0px 0px 4px 0px #2c292975;
+    background-color: #726446;
+    color: wheat;
+}

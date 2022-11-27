@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static' , filename='css/home.css')}}">
+
+</head>
+<body>
+    <form action="chatroom.html" method="POST">
+        <div id="formdiv">
+        <h1>LOGIN</h1>
+        <input type="text" placeholder="Unique id" name="userid" id="uid">
+<input type="text" maxlength="8" placeholder="Name" id="username" name="name"><br>
+<button type="submit" id="btnclk">Submit</button>
+</div>
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='scripts/jquery.js') }}"></script>
+
+
+
+
+</body>
+</html>
